@@ -1,0 +1,6 @@
+/* 강좌 색상 — lectureBuilder 디자인 설정으로 생성 (재생성 시 덮어씀) */
+:root { --primary: #3776ab; --primary-soft: #e7eff5; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --primary: #7da6c8; --primary-soft: #192a3b; }
+}
+:root[data-theme="dark"] { --primary: #7da6c8; --primary-soft: #192a3b; }

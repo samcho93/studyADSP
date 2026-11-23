@@ -1,0 +1,80 @@
+{
+  "id": "studyADSP",
+  "title": "ADSP 자격증대비",
+  "subtitle": "",
+  "icon": "🎓",
+  "repoName": "studyADSP",
+  "language": "none",
+  "languageOther": "",
+  "kind": "cert",
+  "design": {
+    "template": "minimal",
+    "preset": "blue",
+    "accent": "#3776ab",
+    "accent2": "#a16207",
+    "theme": "light",
+    "brand": "SamStudy",
+    "importedFrom": ""
+  },
+  "roles": {
+    "student": true,
+    "teacher": false,
+    "teacherPass": "samcho93",
+    "showSolutionToStudent": true
+  },
+  "practice": {
+    "enabled": true,
+    "runtime": "auto"
+  },
+  "engine": {
+    "mode": "profile",
+    "profile": "cert-exam",
+    "cloneFrom": ""
+  },
+  "content": {
+    "audience": "",
+    "level": "입문",
+    "chapters": 8,
+    "sectionMinutes": 50,
+    "sectionsPerChapter": 2,
+    "description": "모의고사 10회 추가",
+    "outline": "",
+    "references": "",
+    "tone": "존댓말, 핵심 요약 · 암기 포인트 · 기출 유형 중심",
+    "certName": "",
+    "toolName": ""
+  },
+  "problems": {
+    "quiz": true,
+    "practice": false,
+    "chapterTest": false,
+    "mockExam": true,
+    "perSection": 5,
+    "mockCount": 20,
+    "mockSets": 1,
+    "types": [
+      "choice",
+      "short"
+    ]
+  },
+  "repo": {
+    "parentDir": "D:\\Work\\Web",
+    "owner": "samcho93",
+    "visibility": "public",
+    "createGithub": true
+  },
+  "deploy": {
+    "cloudflare": true,
+    "project": "studyadsp",
+    "branch": "main",
+    "ciWorkflow": true
+  },
+  "claude": {
+    "model": "opus",
+    "permissionMode": "bypassPermissions",
+    "maxBudgetUsd": "",
+    "extraInstructions": ""
+  },
+  "createdAt": "2026-11-23T02:13:50.142Z",
+  "updatedAt": "2026-11-23T03:28:06.203Z"
+}
