@@ -13,7 +13,7 @@ window.CERT_COURSE = {
   "certName": "",
   "storeKey": "cert.studyADSP",
   "mock": {
-    "sets": 1,
+    "sets": 10,
     "perSet": 20,
     "minutes": 30,
     "passAvg": 60,
